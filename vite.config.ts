@@ -10,9 +10,9 @@ export default defineConfig(({ mode }) => ({
     hmr: {
       overlay: false,
     },
-    base: '/localist-landing-page/',
   },
-  plugins: [react()],
+  plugins: [react()],base: '/localist-landing-page/',
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
